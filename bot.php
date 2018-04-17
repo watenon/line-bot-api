@@ -18,4 +18,7 @@ if (!empty($bot->isEvents)) {
 	echo $bot->response->getHTTPStatus . ' ' . $bot->response->getRawBody(); 
 	exit();
 
+}else{
+	echo 'no event';
+	exit();
 }
